@@ -38,7 +38,7 @@ d = finalPrice
 e = taxDollars
 f = receipt
 
-console.log(d);*/
+console.log(f);*/
 
 let customerName = "Alice";
 let itemBooks = 5;
