@@ -24,9 +24,27 @@ Things to reflect on:
   
 */
 
+/* varibales (a,b,c,d) are too vague and need better declaration for their purpose
 let a = "Alice";
 let b = 5;
 let c = 20;
 let d = a + " bought " + b + " items for $" + c + ".";
 
-console.log(d);
+Refactor the code with replacing variable names 
+a = customerName
+b = itemBooks
+c = totalDollars
+d = finalPrice
+e = taxDollars
+f = receipt
+
+console.log(d);*/
+
+let customerName = "Alice";
+let itemBooks = 5;
+let totalDollars = 20;
+let taxDollars = 0.15;
+let finalPrice = totalDollars + (totalDollars * taxDollars);
+let receipt = customerName+ " bought " + itemBooks + " items for $" + finalPrice + ".";
+
+console.log(receipt);
